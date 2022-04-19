@@ -69,17 +69,18 @@ comidasPreferidas[1]= comidaUsuario
  
  console.log(comidasPreferidas)
 */
+const listaDeTarefas= []
 
  const primeiraTarefa= prompt("Primeira atividade do dia")
  const segundaTarefa= prompt ("Segunda atividade do dia")
  const terceiraTarefa= prompt ("Terceira tarefa do dia")
 
-const listaDeTarefas= [primeiraTarefa,segundaTarefa,terceiraTarefa ]
+ listaDeTarefas.push(primeiraTarefa, segundaTarefa, terceiraTarefa)
 
  console.log(listaDeTarefas)
 
+ 
  const digiteIndice = Number(prompt("Digite o numero de uma tarefa que voce ja realizou"))
+  arraylistaDeTarefas.splice(digiteIndice,1)
 
- const listaAlterada= listaDeTarefas.splice("1", digiteIndice)
-
- console.log(listaDeTarefas)
+ console.log(arraylistaDeTarefas)
