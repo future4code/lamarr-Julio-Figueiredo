@@ -81,6 +81,14 @@ const listaDeTarefas= []
 
  
  const digiteIndice = Number(prompt("Digite o numero de uma tarefa que voce ja realizou"))
-  arraylistaDeTarefas.splice(digiteIndice,1)
+  listaDeTarefas.splice(digiteIndice, 1)
 
- console.log(arraylistaDeTarefas)
+ console.log(listaDeTarefas)
+
+ const frase = "Meu nome é Julio"
+ const resultado = frase.split(" ")
+ console.log(resultado)
+
+ const listaDeCompras= ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"]
+ console.log("tamanho:", listaDeCompras.length,"abacaxi:", listaDeCompras.indexOf("Abacaxi"))
+ 
