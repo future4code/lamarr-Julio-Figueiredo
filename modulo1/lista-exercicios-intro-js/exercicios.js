@@ -100,7 +100,12 @@ function retornaUltimoElemento(array) {
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
-array.reverse()
+  let primeiro = array[0]
+  array[0] = array[array.length-1]
+  array[array.length-1] = primeiro
+
+  return array
+
 }
 
 // EXERCÍCIO 12
