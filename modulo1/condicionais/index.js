@@ -112,9 +112,12 @@ switch(resultadoTurno){
 // 4 - 
 const generoFilme=prompt("Qual gênero de filme voce vai assistir?")
 const valorIngresso= Number(prompt("Qual preço do ingresso?"))
+const snackAComprar= prompt("Qual snack voce quer comprar?")
+
 
 const filme = generoFilme
 const realIngresso= valorIngresso
+const valorSnack = snackAComprar
 
 if (filme == "fantasia" && realIngresso < 15){
     console.log("Bom filme!")}
@@ -124,5 +127,7 @@ if (filme == "fantasia" && realIngresso < 15){
 
      else if (filme != "fantasia" && realIngresso < 15){
     console.log("Escolha outro filme :(")}
+
+    console.log(`Aproveite o seu ${valorSnack}`)
     
 
