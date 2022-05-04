@@ -65,14 +65,17 @@ console.log(guardarNomes)
 
   // 2 -
 
-  const arrayOriginal = [10, 20 , 30 , 40 , 50]
+  const arrayOriginal =  [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
 
-  functionImprimir = (arrayOriginal)=>{
+  function imprimirArray(){
+    
 
-   for (let impressao of arrayOriginal){
-  console.log(functionImprimir())
-   }
   }
+  
+ 
+
+  
+  
    
  
 
